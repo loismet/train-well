@@ -1,0 +1,358 @@
+body{
+    background-color: rgb(9, 8, 8);
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ h1{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Bungee Outline', cursive;
+    font-size: 4em;
+    color: rgb(169, 100, 248);
+
+    color: #fff;
+    text-shadow:
+     0 0 10px  rgb(169, 100, 248),
+     0 0 21px rgb(169, 100, 248),
+     0 0 42px rgb(169, 100, 248); 
+
+}
+
+
+h2{
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: xx-large;
+    }
+
+
+h3{
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h4{
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center ;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 40em;
+    font-size: larger
+    
+}
+
+
+    
+a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+a:hover{
+    background: black;  
+    border-color:rgb(169, 100, 248); 
+    border-style: solid;
+    border-radius: 1em;
+    color: white;
+   }
+  
+a:active{
+color: grey;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); 
+    border-color: black;
+    width: 100%;
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: outset;
+    border-color: black;
+    padding: 1em 0em    
+}
+@media only screen and (max-width: 767px) {
+    nav ul{
+        height: 230px;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav li{
+        padding-bottom: 1em;
+    }
+}
+
+    
+    
+
+header ul li {
+    margin-right: 1em;
+}
+
+.homepage section{
+    justify-content: space-around;
+    padding: 0em;
+ 
+}
+
+.homepage section img{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: auto;
+    margin: auto;
+}
+
+.exercises section h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.exercises section{
+    width: 50%;
+    margin: auto;
+}
+
+ .exercises section ul{
+    padding: 0;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin: 0;
+ }    
+ .exercises section li{
+    width: 47%;
+    margin-bottom: 5%;
+ }
+
+ .exercises img{
+    width: 100%;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: rgba(128, 128, 128, 0.814);;
+ }
+
+ .exercises h4{
+    display: flex;
+    justify-content: center;
+ }
+
+h2{ 
+    font-family: 'Gruppo', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+table {
+    border: 1em;
+    border-color: white
+    border-style;
+
+    width: 100%
+}
+
+table th{
+    width: 20;
+    height: 4em;
+    font-family: 'Gruppo', sans-serif;
+    border-color: rgba(128, 128, 128, 0.814);
+    border-style: solid;
+    color: white;
+}
+
+table td{
+    height: 3em;
+    margin: auto;
+
+    font-family: 'Gruppo', sans-serif;
+
+    border-color: rgba(128, 128, 128, 0.301);
+    border-style: solid;
+
+    color: white;
+}
+.aboutme section h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutme section p{
+    width: 80%;
+    
+}
+
+.aboutme section img{
+    display: block;
+    width: 50%;
+
+    margin: auto;
+}
+
+.aboutme section{
+    width: 50%;
+    margin: auto;
+}
+
+
+.aboutme section ul{
+    padding: 0%;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0%;
+   
+}
+
+.aboutme section li{
+    width: 47%;
+    margin-bottom: 5%;
+}
+
+.aboutme video{
+    
+    width: 100%;
+    
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5em;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+
+}
+
+.back-to-top span{
+    font-size: 1.5em;
+    transition: 0.2 ease-out;
+}
+
+.back-to-top:hover span{
+    transform: translateY(-4px);
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+
+    border-color:rgb(169, 100, 248);
+    
+    border-style: solid;
+
+    padding: 0.5em;
+
+    font-size: x-large;
+    font-family: 'Bungee Hairline', cursive;
+
+    background: rgb(0, 0, 0)
+}
+
+footer  p{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+section form{
+    flex-flow: column;
+
+    margin: auto;
+    
+    border-style: solid;
+    border-color: #000000;
+
+    padding: 1em;
+    width: 22em;
+    
+    font-family: 'Gruppo', sans-serif;
+    font-size: medium;
+    }
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+input{
+    background-color: white;
+
+    font-size: small;
+
+    padding:1em;
+    padding-left: 1em;
+
+    padding-right: 2em;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.1em
+    
+
+    }
+input[type=submit]{
+    border-color: rgb(169, 100, 248);;
+    background-color: black;
+    color: white;
+
+}
+
+input[type=submit]:hover{
+    background-color:rgb(169, 100, 248) ;
+}
+
+input[type=submit]:active{
+    color: rgb(169, 100, 248); ;
+
+}
+textarea{
+    border-radius: 1em;
+}
+

@@ -17,8 +17,10 @@ h1 {
   color: rgb(169, 100, 248);
   text-align: center;
   color: #fff;
-  text-shadow: 0 0 10px rgb(169, 100, 248), 0 0 21px rgb(169, 100, 248),
-    0 0 42px rgb(169, 100, 248);
+  text-shadow: 
+  0 0 10px rgb(169, 100, 248), 
+  0 0 21px rgb(169, 100, 248),
+  0 0 42px rgb(169, 100, 248);
 }
 
 h2 {
@@ -102,9 +104,11 @@ header ul li {
 }
 
 table {
+  padding: 2em;
   border: 2em;
-  border-color: white border-style;
-  width: 100%;
+  border-color: white 
+  
+  
 }
 
 table th {

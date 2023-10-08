@@ -106,6 +106,10 @@ header ul li {
   padding: 0em;
 }
 
+.homepage section p {
+  padding-bottom: 1em ;
+}
+
 .homepage section img {
   display: flex;
   justify-content: center;

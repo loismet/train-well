@@ -1,25 +1,35 @@
-Plaatjes:
+Naam: Loïs Metzelaar
+Studentnummer: 500894022
+Klas: Azuur
+Schooljaar: 1
+
+LINK NAAR LIVE WEBSITE
+https://loismet.github.io/train-well/
+
+BRONVERMELDING
+
+1. Plaatjes:
 https://www.doelgerichttrainen.nl
 https://classpass.com/classes/saints-and-stars-oud-zuid-classes-amsterdam/holy-booty-1824192898d
 
-(eigen foto)https://www.instagram.com/p/CWId4mINdPv/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
+(eigen foto) https://www.instagram.com/p/CWId4mINdPv/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
 
-Video's (eigen content)
+2. Video's (eigen content)
 https://www.instagram.com/reel/CjJJvtML-gE/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
 https://www.instagram.com/reel/Cj0lqKJuUq6/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
 
-Code:
+3. Code:
 https://css-tricks.com/how-to-create-neon-text-with-css/ (neon letters)
 https://youtu.be/fYGe-SuFAHU?si=voGgXChcO2qgm12T (back to top button)
 
-Fonts:
+4. Fonts:
 https://fonts.google.com/
-
-carbon calculator;
-https://www.websitecarbon.com/website/loismet-github-io-train-well/
 Bungee Hairline
 Bungee Outline 
 Gruppo
 
-Tekst:
+5. Carbon calculator;
+https://www.websitecarbon.com/website/loismet-github-io-train-well/
+
+6. Tekst:
 Geïnspireerd op chat gpt 

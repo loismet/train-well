@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(9, 8, 8);
   margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 h1 {
@@ -60,10 +60,6 @@ a {
   border-width: 0.1em;
 }
 
-tr{
-  text-align: center;
-}
-
 a:hover {
   background: black;
   border-color: rgb(169, 100, 248);
@@ -103,6 +99,34 @@ header nav ul {
 
 header ul li {
   margin-right: 1em;
+}
+
+table {
+  border: 2em;
+  border-color: white border-style;
+  width: 100%;
+}
+
+table th {
+  width: 20;
+  height: 4em;
+  font-family: "Gruppo", sans-serif;
+  border-color: rgba(128, 128, 128, 0.814);
+  border-style: solid;
+  color: white;
+}
+
+table td {
+  height: 3em;
+  margin: auto;
+  font-family: "Gruppo", sans-serif;
+  border-color: rgba(128, 128, 128, 0.301);
+  border-style: solid;
+  color: white;
+}
+
+table tr {
+  text-align: center;
 }
 
 .homepage section {
@@ -153,36 +177,6 @@ header ul li {
   justify-content: center;
 }
 
-h2 {
-  font-family: "Gruppo", sans-serif;
-  display: flex;
-  justify-content: center;
-  font-size: xx-large;
-}
-
-table {
-  border: 2em;
-  border-color: white border-style;
-  width: 100%;
-}
-
-table th {
-  width: 20;
-  height: 4em;
-  font-family: "Gruppo", sans-serif;
-  border-color: rgba(128, 128, 128, 0.814);
-  border-style: solid;
-  color: white;
-}
-
-table td {
-  height: 3em;
-  margin: auto;
-  font-family: "Gruppo", sans-serif;
-  border-color: rgba(128, 128, 128, 0.301);
-  border-style: solid;
-  color: white;
-}
 
 .aboutme section p {
   width: 80%;
@@ -239,15 +233,6 @@ table td {
   transform: translateY(-4px);
 }
 
-footer h2 {
-  border-color: rgb(169, 100, 248);
-  border-style: solid;
-  padding: 0.5em;
-  font-size: x-large;
-  font-family: "Bungee Hairline", cursive;
-  background: rgb(0, 0, 0);
-}
-
 section form {
   flex-flow: column;
   margin: auto;
@@ -300,4 +285,28 @@ textarea {
 
 label {
   padding: 0.5em 0em;
+}
+
+footer {
+  margin-top: 4em;
+}
+
+footer h2 {
+  border-color: rgb(169, 100, 248);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding: 0.5em;
+  font-size: x-large;
+  font-family: "Bungee Hairline", cursive;
+  background: rgb(0, 0, 0);
+}
+
+footer a {
+  color: white;
+  font-family: "Bungee Hairline", cursive;
+  background-color: black;
+  display: block;
+  width: 30em;
+  text-align: center;
+  margin: 0 auto;
 }

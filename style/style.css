@@ -7,6 +7,7 @@ body {
   margin: 0;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,7 +45,7 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 40em;
+  max-width: 40em ;
   font-size: larger;
 }
 
@@ -87,7 +88,6 @@ header nav ul {
 
 @media only screen and (max-width: 767px) {
   nav ul {
-    height: 230px;
     margin: auto;
     flex-direction: column;
     text-align: center;

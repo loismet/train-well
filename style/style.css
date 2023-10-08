@@ -83,7 +83,8 @@ header nav ul {
   font-family: "Bungee Hairline", cursive;
   font-weight: bold;
   text-decoration: none;
-  border-style: outset;
+  border-top-style: solid;
+  border-bottom-style: solid;
   border-color: black;
   padding: 1em 0em;
 }

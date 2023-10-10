@@ -105,6 +105,8 @@ header ul li {
 }
 
 table {
+  display: flex;
+  justify-content: center;
   padding: 2em;
   border: 2em;
   border-color: white 
